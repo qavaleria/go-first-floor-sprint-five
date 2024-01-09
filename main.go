@@ -206,7 +206,6 @@ func ReadData(training CaloriesCalculator) string {
 	// получите количество затраченных калорий
 	calories := training.Calories()
 	fmt.Sprint(calories)
-	// получите информацию о тренировке
 	info := training.TrainingInfo()
 	// добавьте полученные калории в структуру с информацией о тренировке
 	type InfoMessage struct {
